@@ -7,7 +7,7 @@ This module creates github environments, adds approvals and defines which branch
 ## How to use this module?
 
 ```hcl
-module "github_actions_workload_identity_federation" {
+module "github_environments" {
   source = "github.com/dapperlabs-platform/terraform-github-environments?ref=<release>"
 
   repos = [
